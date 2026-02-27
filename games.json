@@ -34,5 +34,23 @@
     "badge": "NEW",
     "url": "https://www.twoplayergames.org/gameframe/volley-random",
     "category": "sports"
+  },
+  {
+    "id": "ragdollarchers",
+    "title": "Ragdoll Archers",
+    "desc": "Floppy bow & arrow battles",
+    "icon": "🏹",
+    "badge": "HOT",
+    "url": "https://bitlifeonline.github.io/ragdoll-archers/",
+    "category": "arcade"
+  },
+  {
+    "id": "ragdollhit",
+    "title": "Ragdoll Hit",
+    "desc": "Smash floppy ragdolls silly",
+    "icon": "💥",
+    "badge": "NEW",
+    "url": "https://freetoplayz.github.io/ragdoll-hit/",
+    "category": "arcade"
   }
 ]
