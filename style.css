@@ -323,6 +323,9 @@ section.active { display:block; }
 .card:hover .sweep { opacity:1; }
 
 .card-icon  { font-size:1.8rem; margin-bottom:10px; display:block; filter:drop-shadow(0 0 6px rgba(0,170,255,.4)); }
+.card-thumb { width:100%; aspect-ratio:1/1; overflow:hidden; border-radius:6px; margin-bottom:10px; border:1px solid rgba(0,170,255,0.2); }
+.card-thumb img { width:100%; height:100%; object-fit:cover; display:block; transition:transform .3s; }
+.card:hover .card-thumb img { transform:scale(1.07); }
 .card-title { font-family:'Orbitron',monospace; font-size:.73rem; font-weight:700; color:#fff; letter-spacing:.07em; margin-bottom:4px; }
 .card-desc  { font-size:.77rem; color:rgba(130,180,255,.55); line-height:1.5; }
 .card-cat   { font-family:'Share Tech Mono',monospace; font-size:.5rem; letter-spacing:.1em; color:rgba(0,170,255,.3); margin-top:4px; text-transform:uppercase; }
